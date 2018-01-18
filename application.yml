@@ -1,14 +1,13 @@
 ---
 info:
-	description: Training configuration repo
-	
+  description: Training configuration repo
 
 spring:
-	profile: cloud
-	
+  profile: cloud
+
 eureka:
-	client:
-		serviceURL:
-	instance:
-		hostname: ${vcap.application.uris[0].uri}
-		nonSecurePort: 80
+  client:
+    serviceURL:
+  instance:
+    hostname: ${vcap.application.uris[0].uri}
+    nonSecurePort: 80
