@@ -7,7 +7,9 @@ spring:
 
 eureka:
   client:
-    serviceURL:
+    serviceURL: 
+      defaultZone: http://guest:guest@eureka-boisterous-parrot.cfapps.io/eureka
+
   instance:
     hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
