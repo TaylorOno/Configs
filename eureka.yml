@@ -1,0 +1,21 @@
+---
+logging:
+  level:
+    com:
+      netflix:
+        ereaka: OFF
+        discovery: OFF
+
+eureka:
+  client:
+    register-with-eureka: false
+      fetch-registry: false
+
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+    enableSelfPreservation: false
+
+security:
+  user:
+    name: ${vcap.services.eureka-basic-auth.credetials.user}
+    password: ${vcap.services.eureka-basic-auth.credetials.password}
