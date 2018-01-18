@@ -9,5 +9,5 @@ eureka:
   client:
     serviceURL:
   instance:
-    hostname: ${vcap.application.uris[0].uri}
+    hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
