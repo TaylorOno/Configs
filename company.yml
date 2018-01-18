@@ -22,6 +22,7 @@ spring:
     password: password
     driver-class-name: com.mysql.jdbc.Driver
 
+---
 spring:
   profile: cloud
 
