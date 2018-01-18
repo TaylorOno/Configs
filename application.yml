@@ -2,8 +2,9 @@
 info:
   description: Training configuration repo
 
+---
 spring:
-  profile: cloud
+  profiles: cloud
 
 eureka:
   client:

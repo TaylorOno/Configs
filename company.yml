@@ -9,7 +9,7 @@ spring:
 
 ---
 spring:
-  profile: local
+  profiles: local
 
   jpa:
     properties:
@@ -24,6 +24,6 @@ spring:
 
 ---
 spring:
-  profile: cloud
+  profiles: cloud
 
 message: Test test test
