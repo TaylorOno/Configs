@@ -17,5 +17,5 @@ eureka:
 
 security:
   user:
-    name: ${vcap.services.eureka-basic-auth.credetials.user}
-    password: ${vcap.services.eureka-basic-auth.credetials.password}
+    name: ${vcap.services.eureka-basic-auth.credentials.user}
+    password: ${vcap.services.eureka-basic-auth.credentials.password}
