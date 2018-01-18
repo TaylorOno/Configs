@@ -4,7 +4,8 @@ spring:
     hibernate:
       ddl-auto: update
 
-local
+spring:
+  profile: local
 spring:
   jpa:
     properties:
@@ -16,3 +17,8 @@ spring:
     username: user
     password: password
     driver-class-name: com.mysql.jdbc.Driver
+
+spring:
+  profile: cloud
+
+message: Test test test
